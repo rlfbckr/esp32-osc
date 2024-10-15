@@ -9,9 +9,9 @@ needed library for arduino IDE
 - OSC
 
 change sendDataOSC() in osc.ino tab
-`
+```
 oscMsg.add(int(millis())); // sends data
 oscMsg.add(0.001); // sends data
 oscMsg.add(100);
-`
+```
 
