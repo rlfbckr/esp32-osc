@@ -2,6 +2,7 @@ void sendDataOSC() {
   AsyncUDPMessage udpMsg;
   OSCMessage oscMsg("/data");
   
+  // the magic happens here:
   oscMsg.add(int(millis())); // sends data
   oscMsg.add(0.001); // sends data
   oscMsg.add(100);
