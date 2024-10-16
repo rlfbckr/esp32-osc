@@ -7,7 +7,7 @@ void sendDataOSC() {
   // the magic happens here:
   oscMsg.add(int(millis())); // sends data (integer)
   oscMsg.add(0.001); // sends data (float)
-  oscMsg.add(analogRead(23)); // sends readout fron analog portinteger
+  oscMsg.add(analogRead(15)); // sends readout fron analog pin (integer)
   
   oscMsg.send(udpMsg);
   oscMsg.empty();
