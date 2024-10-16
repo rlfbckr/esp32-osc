@@ -6,7 +6,7 @@
 #include <Chrono.h>
 #include <OSCBundle.h>
 
-long senddataInterval = 100; // every 50 milliseconds
+long senddataInterval = 50; // every 50 milliseconds
 int networkOutPort = 9999; // remote port to receive OSC
 
 WiFiMulti wifiMulti;
