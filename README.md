@@ -12,7 +12,7 @@ this demo sends numbers via osc to all hosts in the wifi network (udp port 9999)
 
 change *sendDataOSC()* in osc.ino tab
 ```
-  oscMsg.add((int)millis());        // send timestampo form arduino 
+  oscMsg.add((int)millis());        // send timestamp form arduino 
   oscMsg.add((int)2345);            // sends data (integer)
   oscMsg.add((float)3.14);          // sends data (float)
   oscMsg.add(data);                 // send data (from variable)
