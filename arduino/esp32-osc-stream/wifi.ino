@@ -3,8 +3,8 @@
 */
 void initWIFI() {
   WiFi.mode(WIFI_STA);
-  wifiMulti.addAP("ssid0 of network", "password");
-  wifiMulti.addAP("ssid1", "your password2");
+  wifiMulti.addAP("nodata", "Kuechenlappen");
+ // wifiMulti.addAP("ssid1", "your password2");
   //  add more if needed  wifiMulti.addAP("ssid1", "your password2");
   int n = WiFi.scanNetworks();
   if (WiFi.scanNetworks() == 0) {
